@@ -182,7 +182,18 @@ jdbc.password=
 
 
 
+---------------------- 
 
+1、 增加 单元测试    
+    study.yzl.com.service.impl.StationServiceImplTest
+      以前 没怎么写过单元测试     现在感觉单元测试挺好玩的 
+      
+2、controller的单元测试  StationController2Test
+
+
+
+
+      
 
       
       

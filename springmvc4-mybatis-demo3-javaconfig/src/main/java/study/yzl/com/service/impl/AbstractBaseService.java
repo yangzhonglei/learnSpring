@@ -21,8 +21,7 @@ public abstract class AbstractBaseService<T,E> implements BaseService<T> {
 	@Transactional
 	public int create(T entity) {
 		
-		getBaseDAO().insert(entity);
-		return 0;
+		return getBaseDAO().insert(entity);
 	}
 
 	@Override

@@ -37,8 +37,8 @@ public class StationServiceImpl  extends AbstractBaseService<Station,StationExam
 		entity.setCreatedAt(today);
 		entity.setUpdatedAt(today);
 		entity.setStatus(0);
-		getBaseDAO().insert(entity);
-		return 0;
+		
+		return getBaseDAO().insert(entity);
 	}
 	
 	
