@@ -309,12 +309,12 @@
 	            </configuration>
         	</plugin> -->
         	
-        	<plugin>
+        	<!-- <plugin>
 			    <groupId>org.openapitools</groupId>
 			    <artifactId>openapi-generator-maven-plugin</artifactId>
-			    <!-- RELEASE_VERSION -->
+			    RELEASE_VERSION
 			    <version>4.2.3</version>
-			    <!-- /RELEASE_VERSION -->
+			    /RELEASE_VERSION
 			    <executions>
 			        <execution>
 			            <goals>
@@ -329,7 +329,7 @@
 			            </configuration>
 			        </execution>
 			    </executions>
-			</plugin>
+			</plugin> -->
 			
 		</plugins>
 	</build>
