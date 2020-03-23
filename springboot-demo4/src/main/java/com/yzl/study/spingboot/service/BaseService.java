@@ -13,6 +13,14 @@ public interface BaseService <T> {
 	 */
 	 public int  create(T entity);
 	
+	 /**增
+	  * @param entity
+	  * @return
+	  */
+	 public int  createBatch(List<T> entityList);
+	 
+	 
+	 
 	 /** 根据id删除
 	 * @param id
 	 */

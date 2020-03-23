@@ -1,4 +1,4 @@
-package com.yzl.study.spingboot;
+package com.yzl.study.spingboot.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.yzl.study.spingboot.model.Station;
 import com.yzl.study.spingboot.service.StationService;
+import com.yzl.study.spingboot.vo.User;
 
 @Controller
 public class HelloWorldController {
@@ -26,7 +27,7 @@ public class HelloWorldController {
         return "<h1>Hello World!</h1>";
     }
 
-    @RequestMapping(value="/test")
+    @RequestMapping(value="/json")
     @ResponseBody()
     public Object test() {
     	User user = new User("bjbj",21,"wsyzl@qq.com","yang");

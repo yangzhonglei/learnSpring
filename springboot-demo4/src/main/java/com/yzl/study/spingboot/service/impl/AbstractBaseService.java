@@ -22,6 +22,15 @@ public abstract class AbstractBaseService<T,E> implements BaseService<T> {
 		
 		return getBaseDAO().insert(entity);
 	}
+	
+	@Override
+	public int createBatch(List<T> entityList) {
+		
+		
+//		getBaseDAO().
+		
+		return 0;
+	}
 
 	@Override
 	public int remove(Integer id) {

@@ -19,6 +19,9 @@ import org.springframework.core.io.support.ResourcePatternResolver;
 import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
+import com.yzl.study.spingboot.servlet.MyFilter;
+import com.yzl.study.spingboot.servlet.MyServlet;
+
 
 //@ServletComponentScan
 @EnableTransactionManagement

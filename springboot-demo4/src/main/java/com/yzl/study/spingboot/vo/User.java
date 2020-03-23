@@ -1,4 +1,4 @@
-package com.yzl.study.spingboot;
+package com.yzl.study.spingboot.vo;
 
 
 

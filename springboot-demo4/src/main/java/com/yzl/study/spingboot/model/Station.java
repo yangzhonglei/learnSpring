@@ -4,12 +4,12 @@ import java.io.Serializable;
 import java.util.Date;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-//
-//import io.swagger.annotations.ApiModel;
-//import io.swagger.annotations.ApiModelProperty;
-//import study.yzl.com.web.SysConstants;
+import com.yzl.study.spingboot.util.SysConstants;
 
-//@ApiModel()
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
+@ApiModel()
 public class Station implements Serializable {
 	
 	
@@ -33,14 +33,14 @@ public class Station implements Serializable {
 
     private Integer status;
 
-//    @ApiModelProperty(example = "2020-03-18 16:23:59")
-//    @JsonFormat(timezone = "GMT+8" ,pattern =SysConstants.DATE_FORMAT)
+    @ApiModelProperty(example = "2020-03-18 16:23:59")
+    @JsonFormat(timezone = "GMT+8" ,pattern =SysConstants.DATE_FORMAT)
     private Date createdAt;
-//    @ApiModelProperty(example = "2020-03-18 16:23:59")
-//    @JsonFormat(timezone = "GMT+8" ,pattern =SysConstants.DATE_FORMAT)
+    @ApiModelProperty(example = "2020-03-18 16:23:59")
+    @JsonFormat(timezone = "GMT+8" ,pattern =SysConstants.DATE_FORMAT)
     private Date updatedAt;
-//    @ApiModelProperty(example = "2020-03-18 16:23:59")
-//    @JsonFormat(timezone = "GMT+8" ,pattern =SysConstants.DATE_FORMAT)
+    @ApiModelProperty(example = "2020-03-18 16:23:59")
+    @JsonFormat(timezone = "GMT+8" ,pattern =SysConstants.DATE_FORMAT)
     private Date deletedAt;
 
     private static final long serialVersionUID = 1L;

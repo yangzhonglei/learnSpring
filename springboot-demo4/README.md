@@ -162,7 +162,17 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 13、事物管理  @EnableTransactionManagement 
 
   
-14、
+--------------------------------------------------------
+
+14、增加一个单元测试   
+
+
+
+15、
+
+
+
+
 
 
 

@@ -1,4 +1,4 @@
-package com.yzl.study.spingboot;
+package com.yzl.study.spingboot.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;

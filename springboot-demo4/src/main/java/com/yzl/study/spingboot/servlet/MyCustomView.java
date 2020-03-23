@@ -1,4 +1,4 @@
-package com.yzl.study.spingboot;
+package com.yzl.study.spingboot.servlet;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.View;
 import javax.servlet.http.HttpServletRequest;
