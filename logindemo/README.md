@@ -16,9 +16,10 @@ spring session redis
 技术点  ：     
    登录验证拦截器  
    统一异常处理  
-   统一返回响应格式
-   注解验证请求
-    mybatis  代码生成
-   flyway 使用
+   统一返回响应格式  
+   注解验证请求  
+    mybatis  代码生成  
+   flyway 使用  
+   redis 存放分布式session
    
    
