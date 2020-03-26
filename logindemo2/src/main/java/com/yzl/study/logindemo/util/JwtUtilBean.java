@@ -79,6 +79,7 @@ public class JwtUtilBean {
      * &emsp;&emsp;&emsp;&emsp;1005：过期<br/>
      * &emsp;&emsp;&emsp;&emsp;1004：未登录
      */
+    //TODO 这个方法写的不好   以后改
     public JSONObject validateJWT(String jwtStr) {
         JSONObject pojo = new JSONObject();
         Claims claims = null;
