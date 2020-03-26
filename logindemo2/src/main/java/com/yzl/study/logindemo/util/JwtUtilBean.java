@@ -60,7 +60,10 @@ public class JwtUtilBean {
      * @return Claims 解析后的对象
      */
     public Claims parseJWT(String jwt) {
-        return Jwts.parser().setSigningKey(DatatypeConverter.parseBase64Binary(SECRET)).parseClaimsJws(jwt).getBody();
+        //parseClaimsJws 可能抛出 ExpiredJwtException, UnsupportedJwtException, MalformedJwtException, SignatureException, IllegalArgumentException
+        JwtParser parser = Jwts.parserBuilder().setSigningKey(DatatypeConverter.parseBase64Binary(SECRET)).build();
+        Jws<Claims> claimsJws = parser.parseClaimsJws(jwt);
+        return claimsJws.getBody();
     }
 
     /**
