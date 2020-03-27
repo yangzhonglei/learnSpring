@@ -1,0 +1,1 @@
+CREATE TABLE t_user (id int  PRIMARY KEY AUTO_INCREMENT  NOT NULL  ,name varchar(100) DEFAULT NULL ,url varchar(100) DEFAULT NULL);
